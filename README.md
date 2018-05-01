@@ -41,4 +41,20 @@ Enable custom configuration:
 cp zshrc ~/.zshrc
 ```
 
+## karabiner
+
+Install Karabiner-Elements from [https://github.com/tekezo/Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
+
+```shell
+cp karabiner.json ~/.config/karabiner
+```
+
+## Random apps
+
+[http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/](http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/)
+
+[https://github.com/Clipy/Clipy](https://github.com/Clipy/Clipy)
+
+[https://github.com/eczarny/spectacle](https://github.com/eczarny/spectacle)
+
 Done.
