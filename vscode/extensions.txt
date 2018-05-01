@@ -1,0 +1,31 @@
+$ /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --list-extensions
+
+Gruntfuggly.save-without-format
+KnisterPeter.vscode-github
+PeterJausovec.vscode-docker
+SolarLiner.linux-themes
+Tyriar.sort-lines
+abusaidm.html-snippets
+coolbear.systemd-unit-file
+dbaeumer.vscode-eslint
+ecmel.vscode-html-css
+eriklynd.json-tools
+felixfbecker.php-debug
+felixfbecker.php-intellisense
+felixfbecker.php-pack
+lukehoban.Go
+marcostazi.VS-code-vagrantfile
+mauve.terraform
+mohsen1.prettify-json
+ms-python.python
+ms-vscode.cpptools
+richie5um2.vscode-sort-json
+rogalmic.bash-debug
+ryanluker.vscode-coverage-gutters
+searKing.preview-vscode
+shakram02.bash-beautify
+thenikso.github-plus-theme
+twxs.cmake
+vscodevim.vim
+
+code --install-extension $NAME

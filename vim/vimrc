@@ -1,0 +1,73 @@
+set guioptions=
+colorscheme desert      " scheme
+set guifont=Monospace\ 8
+set nocompatible        " do not use default vim values
+set nobackup            " do not generate backup files
+set incsearch           " put us automatically in the string we are searching for
+
+set ai                  " autoindent on
+"set cin                 " enable C autoindent
+
+set showcmd             " show commands partially
+set ignorecase          " ignorecase matching
+set smartcase
+set showmatch           " correlate ( )'s, { }'s, etc...
+set nu                  " line numbers on
+syntax on               " syntax color on
+set backspace=2         " make backspace work like most other programs
+
+set ls=2                " status bar always visible
+
+" set scrolloff=999       " cursor in the middle of the screen
+
+set expandtab
+set sw=2
+set softtabstop=2
+set tabstop=2
+
+set textwidth=250
+set smarttab
+set cursorline cursorcolumn
+
+set ruler
+
+if has("autocmd")
+" When editing a file, always jump to the last cursor position
+  autocmd BufReadPost *
+  \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+  \   exe "normal g'\"" |
+  \ endif
+endif
+
+
+" Python dict
+if has("autocmd")
+  autocmd FileType python set complete+=k/usr/share/vim/vimfiles/dict/pydiction-0.5/pydiction isk+=.,(
+endif
+
+"set mouse=a            " enable mouse in console
+
+"" no more typos
+ab WQ wq
+ab wQ wq
+ab Wq wq
+let fs=0
+
+" Tabs
+
+nnoremap <tab> :tabnext<CR>
+nnoremap <S-tab> :tabprevious<CR>
+nnoremap <C-c> :tabclose<CR>
+
+" Removes trailing spaces
+function TrimWhiteSpace()
+: %s/\s*$//
+: ''
+:endfunction
+
+autocmd FileWritePre   * :call TrimWhiteSpace()
+autocmd FileAppendPre  * :call TrimWhiteSpace()
+autocmd FilterWritePre * :call TrimWhiteSpace()
+autocmd BufWritePre    * :call TrimWhiteSpace()
+
+" EOF
