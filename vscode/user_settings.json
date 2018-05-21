@@ -14,5 +14,5 @@
     "python.venvPath": "venv",
     "window.zoomLevel": 1,
     "window.title": "${activeEditorLong}${separator}${rootName}",
-    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
