@@ -96,4 +96,10 @@ cp karabiner.json ~/.config/karabiner
 
 [https://github.com/eczarny/spectacle](https://github.com/eczarny/spectacle)
 
+[https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
+
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+[https://www.obdev.at/products/littlesnitch/download.html](https://www.obdev.at/products/littlesnitch/download.html)
+
 Done.
