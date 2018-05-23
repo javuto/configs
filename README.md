@@ -130,4 +130,23 @@ awscli
 brew install awscli
 ```
 
+## Settings
+
+Dock position
+```shell
+defaults write com.apple.Dock orientation -string left
+killall Dock
+```
+
+Show battery percentage
+```
+defaults write com.apple.menuextra.battery ShowPercent YES
+killall SystemUIServer
+```
+
+Add Spanish language
+```shell
+defaults write -g AppleLanguages -array "en-US" "es-US"
+```
+
 Done.
