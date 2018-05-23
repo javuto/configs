@@ -102,4 +102,32 @@ cp karabiner.json ~/.config/karabiner
 
 [https://www.obdev.at/products/littlesnitch/download.html](https://www.obdev.at/products/littlesnitch/download.html)
 
+## Command line
+
+ag: silver searcher
+```shell
+brew install the_silver_searcher
+```
+
+pip
+```shell
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+```
+
+wget
+```shell
+brew install wget
+```
+
+nmap
+```shell
+brew install nmap
+```
+
+awscli
+```shell
+brew install awscli
+```
+
 Done.
