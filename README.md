@@ -102,6 +102,8 @@ cp karabiner.json ~/.config/karabiner
 
 [https://www.obdev.at/products/littlesnitch/download.html](https://www.obdev.at/products/littlesnitch/download.html)
 
+[https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
+
 ## Command line
 
 ag: silver searcher
